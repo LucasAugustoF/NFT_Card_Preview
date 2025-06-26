@@ -18,16 +18,20 @@ main {
     max-width: 350px;
 }
 
-img {
+.nft-card .image-link .image {
     width: 100%;
-    border-radius: 15px;
-}
+    border-radius: 7px;
+} 
 
-.title-link .title {
+.nft-card .title-link .title {
     color: #ffffff;
     font-size: 22px;
     font-weight: 600;
     margin: 25px 0 20px;
+}
+
+.nft-card .title-link .title:hover {
+    color: var(--primary-medium);
 }
 
 .about {
@@ -95,4 +99,8 @@ img {
 
 .nft-card .creator .text .name {
     color: white;
+}
+
+.nft-card .title-link .title {
+
 }
